@@ -3,7 +3,7 @@
 // The function below is missing some types and there are a couple errors. Can you see fix this?
 
 // Edit this function
-fn add(a: felt252, b) {
+fn add(a: felt252, b: felt252) -> felt252 {
     let c = a + b;
     return c;
 }
